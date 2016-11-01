@@ -21,7 +21,7 @@ static CGFloat fl_badgeValue_height = 15;
         [self fl_clearBadgeValue];
     }
     else{
-//        NSAssert([self fl_isAllNumber:fl_badgeValue], @"字符串内容必须是数字");
+        NSAssert([self fl_isAllNumber:fl_badgeValue], @"字符串内容必须是数字");
         CGRect rect = [fl_badgeValue  boundingRectWithSize:CGSizeMake(MAXFLOAT, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:[UIFont smallSystemFontSize]]} context:nil];
         // 创建红点
         UIButton *redBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, rect.size.width > fl_badgeValue_height ? rect.size.width + 6 : fl_badgeValue_height, fl_badgeValue_height)];
