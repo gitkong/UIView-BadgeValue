@@ -39,8 +39,8 @@
     self.slider.fl_badgeValue = @"2000";
     self.sw.fl_badgeValue = @"10000";
     self.imageView.fl_badgeValue = @"99";
-    self.leftBarButton.fl_badgeValue = @"9999";
-    self.navigationItem.titleView.fl_badgeValue = @"30";
+    self.leftBarButton.fl_badgeValue = @"咧咧";
+    self.navigationItem.titleView.fl_badgeValue = @"hello world";
 }
 
 - (void)hide{
