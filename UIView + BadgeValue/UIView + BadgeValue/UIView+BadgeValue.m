@@ -34,6 +34,7 @@ static CGFloat fl_badgeValue_height = 15;
         redBtn.backgroundColor = [UIColor redColor];
         [redBtn setTitle:fl_badgeValue forState:UIControlStateNormal];
         [self addSubview:redBtn];
+        [self bringSubviewToFront:redBtn];
     }
 }
 

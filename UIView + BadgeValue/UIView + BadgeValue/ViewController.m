@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIView+BadgeValue.h"
+#import "FLTableViewController.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UIButton *button;
@@ -29,6 +30,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"显示BadgeValue" style:UIBarButtonItemStyleDone target:self action:@selector(click)];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [self.navigationController pushViewController:[[FLTableViewController alloc] init] animated:YES];
 }
 
 - (void)show{

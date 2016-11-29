@@ -14,6 +14,9 @@
 		114F507F1DC8406B00F69558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114F507E1DC8406B00F69558 /* Assets.xcassets */; };
 		114F50821DC8406B00F69558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114F50801DC8406B00F69558 /* LaunchScreen.storyboard */; };
 		114F508B1DC8408900F69558 /* UIView+BadgeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 114F508A1DC8408900F69558 /* UIView+BadgeValue.m */; };
+		11581BE61DED782F00EAC7AD /* FLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581BE21DED782F00EAC7AD /* FLTableViewCell.m */; };
+		11581BE71DED782F00EAC7AD /* FLTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11581BE31DED782F00EAC7AD /* FLTableViewCell.xib */; };
+		11581BE81DED782F00EAC7AD /* FLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581BE51DED782F00EAC7AD /* FLTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,11 @@
 		114F50831DC8406B00F69558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		114F50891DC8408900F69558 /* UIView+BadgeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BadgeValue.h"; sourceTree = "<group>"; };
 		114F508A1DC8408900F69558 /* UIView+BadgeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BadgeValue.m"; sourceTree = "<group>"; };
+		11581BE11DED782F00EAC7AD /* FLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTableViewCell.h; sourceTree = "<group>"; };
+		11581BE21DED782F00EAC7AD /* FLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTableViewCell.m; sourceTree = "<group>"; };
+		11581BE31DED782F00EAC7AD /* FLTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLTableViewCell.xib; sourceTree = "<group>"; };
+		11581BE41DED782F00EAC7AD /* FLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTableViewController.h; sourceTree = "<group>"; };
+		11581BE51DED782F00EAC7AD /* FLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,11 @@
 				114F50761DC8406B00F69558 /* AppDelegate.m */,
 				114F50781DC8406B00F69558 /* ViewController.h */,
 				114F50791DC8406B00F69558 /* ViewController.m */,
+				11581BE11DED782F00EAC7AD /* FLTableViewCell.h */,
+				11581BE21DED782F00EAC7AD /* FLTableViewCell.m */,
+				11581BE31DED782F00EAC7AD /* FLTableViewCell.xib */,
+				11581BE41DED782F00EAC7AD /* FLTableViewController.h */,
+				11581BE51DED782F00EAC7AD /* FLTableViewController.m */,
 				114F507B1DC8406B00F69558 /* Main.storyboard */,
 				114F507E1DC8406B00F69558 /* Assets.xcassets */,
 				114F50801DC8406B00F69558 /* LaunchScreen.storyboard */,
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				114F50821DC8406B00F69558 /* LaunchScreen.storyboard in Resources */,
+				11581BE71DED782F00EAC7AD /* FLTableViewCell.xib in Resources */,
 				114F507F1DC8406B00F69558 /* Assets.xcassets in Resources */,
 				114F507D1DC8406B00F69558 /* Main.storyboard in Resources */,
 			);
@@ -164,8 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11581BE61DED782F00EAC7AD /* FLTableViewCell.m in Sources */,
 				114F507A1DC8406B00F69558 /* ViewController.m in Sources */,
 				114F50771DC8406B00F69558 /* AppDelegate.m in Sources */,
+				11581BE81DED782F00EAC7AD /* FLTableViewController.m in Sources */,
 				114F508B1DC8408900F69558 /* UIView+BadgeValue.m in Sources */,
 				114F50741DC8406B00F69558 /* main.m in Sources */,
 			);
@@ -326,6 +342,7 @@
 				114F50881DC8406B00F69558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
